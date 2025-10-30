@@ -130,3 +130,55 @@ body {
     align-self: flex-end;
     font-weight: 900;
 }
+
+.content-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 100px;
+}
+
+.c4-blueblock {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 100px;
+}
+
+.c4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.c4-top-text {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.c4-bottom-text {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.c4-signupwb {
+    flex-grow: 0;
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+}
