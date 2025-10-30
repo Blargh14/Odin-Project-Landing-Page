@@ -3,16 +3,36 @@ img {
     height: 300px;
 }
 
+* {
+    font-family: Roboto;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
 
+/* add padding to each row */
+
+.header,
+.content-1,
+.content-2,
+.content-3,
+.content-4,
+.footer {
+    padding: 0px 100px;
+}
+
+.logo {
+    height: 75px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    align-items: center;
 }
 
 .header-links {
