@@ -6,4 +6,21 @@ img {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
 }
