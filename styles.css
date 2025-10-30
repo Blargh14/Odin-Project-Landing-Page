@@ -1,3 +1,9 @@
+/* remove after sanity unnecessary */
 img {
     height: 300px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
